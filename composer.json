@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "silex/silex": "~1.0@dev",
+        "igorw/yolo": "dev-master"
+    }
+}
