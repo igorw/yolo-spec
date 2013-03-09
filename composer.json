@@ -1,6 +1,14 @@
 {
+    "require": {
+        "aura/router": "~1.0"
+    },
     "require-dev": {
         "silex/silex": "~1.0@dev",
         "igorw/yolo": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tyne": "src"
+        }
     }
 }

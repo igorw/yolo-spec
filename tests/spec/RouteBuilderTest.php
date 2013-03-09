@@ -90,6 +90,9 @@ class RouteBuilderTest extends \PHPUnit_Framework_TestCase
         $app = new Yolo\Application();
         $apps[] = [$app, $app->getHttpKernel()];
 
+        $app = new Tyne\Application();
+        $apps[] = [$app, $app];
+
         return $apps;
     }
 }
